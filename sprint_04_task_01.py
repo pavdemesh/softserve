@@ -10,6 +10,7 @@ class Employee:
         self.lastname = last
         self.salary = money
 
+    # defining a class method
     @classmethod
     def from_string(cls, string_data):
         employee_data = string_data.split("-")
